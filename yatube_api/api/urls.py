@@ -8,12 +8,12 @@ from api.views import CommentViewSet, GroupViewSet, PostViewSet
 rout = DefaultRouter()
 
 rout.register(
-    r'posts',
+    'posts',
     PostViewSet,
     basename='posts'
 )
 rout.register(
-    r'groups',
+    'groups',
     GroupViewSet,
     basename='groups'
 )
